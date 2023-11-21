@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Vina+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Glass+Antiqua&family=Vina+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 13vh;
+    background-color: bisque;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height:70px;
+}
+.logo p{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 40px;
+    align-content: center;
+}
+
+.side_bar{
+    width: 200px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: brown;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.search_feed{
+    padding: 30px;
+}
+#flag{
+    width: 30px;
+    }
+#cup{
+    width: 35px;
+}
+#money{
+    width:30px;
+}
+#economy{
+    width:30px;
+
+}
+#globe{
+    width: 30px;
+}
+.search_bar{
+    width: 42px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.line{
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    margin: 10px;
+}
+
+#nav_img{
+    width: 50px;
+    height: 50px;
+}
+
+.notifications img{
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+#logo_img{
+    height: 10vh;
+    width: 13vh;
+    border-radius: 10px;
+}
+
+.search_bar input{
+    width: 50vw;
+    height: 6vh;
+    border: none;
+}
+
+.search_bar img{
+    height: 6vh;
+}
+
+.body_div{
+    display: flex;
+    margin-top: 25px;
+}
+
+.main_bar{
+    margin-left: 40px;
+}
+
+.navbar{
+    box-shadow: rgba(62, 62, 62, 0.3) 0px 19px 38px, rgba(79, 78, 78, 0.22) 0px 15px 12px;
+}
+
+.side_bar p {
+    display: flex;
+    align-items: center;
+}
+h5{
+    text-decoration: underline;
+    font-family: 'Vina Sans', sans-serif;
+}
+h4{
+ text-decoration:underline;
+}
+h3{
+    border-style: solid;
+    border-color: black;
+    width: 10vw;
+    height:5vh;
+    border-radius:10px;
+}
+
+#messi img{
+    width: 700px;
+    height: 360px;
+}
+
+#salt img{
+    width: 252px;
+    height: 200px;
+}
